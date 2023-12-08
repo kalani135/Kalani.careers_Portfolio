@@ -1,0 +1,123 @@
+body { 
+ background-image: linear-gradient( #1e1e1e -4%,#ffffff 24%, #669999 100%);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  .header {
+    width: 100%;
+  background: linear-gradient(to right, #ffffff 11%, #1e1e1e 64%);
+    color: rgba(255, 255, 255, 0.811);
+    text-align: center;
+    padding:px;
+    margin: 0px;
+    position: relative;
+  }
+  
+  
+  .header-logo {
+    position: absolute;
+    bottom: 0;
+    left: 23px; 
+  margin : 11px;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2,400px);
+  grid-row-gap: 5px;
+  grid-column-gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 50px;
+  }
+  
+ 
+
+
+  .myDiv {
+    height: 250px;
+    border-radius: 8px;
+    background-image: linear-gradient( #ffffff 4%, #669999 65%);
+    flex: 1;
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+  .myDiv:hover {
+    background-color: #ddd;
+  }
+  
+  .projectImage {
+    float: center;
+   padding: 10px;
+  }
+
+
+  .text h2 {
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .text p {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 250px;
+  }
+  
+  .myDiv:hover {
+    background-color: #ddd;
+  }
+   
+  
+  button {
+    font-size: 11px;
+    border-radius: 8px;
+    padding: 8px 112px;
+    background-color: #447c7881;
+    color: rgba(255, 255, 255, 0.811);
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .menu {
+    width: 100%;
+    background-color: rgb(29, 31, 34);
+    justify-content: space-between; /* Spread the menu items to the full width */
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  
+  .menu a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+  
+  }
+  
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
