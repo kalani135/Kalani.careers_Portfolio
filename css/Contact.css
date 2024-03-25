@@ -1,0 +1,103 @@
+body { 
+  background: linear-gradient(to right, #ffffff 0%, #669999 100%);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .header {
+    width: 100%;
+  background: linear-gradient(to right, #ffffff 11%, #1e1e1e 64%);
+    color: rgba(255, 255, 255, 0.811);
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+    position: relative;
+  }
+  
+  
+  .header-logo {
+    position: absolute;
+    bottom: 0;
+    left: 23px; 
+  margin : 11px;
+  }
+  
+  .myDiv {
+    background: linear-gradient(to right, #ffffff 0%, #669999 100%);
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    align-items: top;
+  }
+  
+  
+  .projectImage {
+    float: center;
+   padding: 20px;
+  }
+
+
+  .text h2 {
+    margin-right: 10px;
+    margin: 3px;
+    margin-left: 10px;
+    font-size: 24px;
+  }
+
+  .text p {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 550px;
+  }
+
+    
+  div {
+    padding: 10px; 
+    padding-left: 10px;
+  }
+
+  button {
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #414549;
+color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .menu {
+    width: 100%;
+    background-color: rgb(29, 31, 34);
+    justify-content: space-between; /* Spread the menu items to the full width */
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+   
+  }
+  
+  
+  .menu a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+  
+  }
+  
+  
+  .menu a:hover {
+    text-decoration:underline;
+  }
+  

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+            border-radius: 8px; /* Add border radius */
+        }
+        #modal1 .modal-content {
+          border-radius: 8px; /* Add border radius */
+          background: linear-gradient( #fffcca -4%,#ffdbfa 24%, #a7d7f7 75%, #befffc 100% );/* Ice cream colors */
+        }
+
+        #modal2 .modal-content {
+          background: linear-gradient( #ffffff -12%, #77b2d6 24%, #2b557c 100%); /* Sky Blue */
+        }
+
+        #modal3 .modal-content {
+          background: linear-gradient( #ffffff -12%, #2ee0ff 24%, #4bd36b 100%); /* Pale Green */
+        }
+
+        #modal4 .modal-content {
+          background: linear-gradient( #101010 -20%, #6dd470 24%, #f1fff5 100%); /* Pink */
+        }
+
+        #modal5 .modal-content {
+          background: linear-gradient( #ddcda3 -27%, #f6d9a2 24%, #eeefee 100%); /* Plum */
+        }
+
+        /* Modal Content */
+        .modal-content {
+          padding-top:0%;
+          padding-left: 0%;
+          padding-right: 0%;
+          padding-bottom: 230px;
+            margin: auto;
+            width: 80%;
+            border-radius: 8px; /* Add border radius */
+        }
+
+
+       .modal-content .omg p {
+        padding: 10px;
+       font-family: Ariel;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-right: 80px;
+ }
+
+
+        /* The Close Button */
+        .close {
+          padding-right: 15px;
+          padding-top: 10px;
+            color: #000000;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            cursor:pointer;
+        }
+
+        
+    </style>
+<link rel="stylesheet" type="text/css" href="css/myworkstyle.css">
+</head>
+<script>
+  function openModal(modalId) {
+      var modal = document.getElementById(modalId);
+      modal.style.display = "block";
+  }
+
+  function closeModal(modalId) {
+      var modal = document.getElementById(modalcon);
+      modal.style.display = "none";
+  }
+ </script>
+
+<body>
+<div class="topnav">
+<a class="active-logo" href="mywork.html"> <img src="images/Logo.png" height="40" > </a> 
+  <div class="topnav-right">
+    <a href="aboutme.html">About</a>
+    <a href="myskills.html">Skills</a>
+    <a href="Contact.html">Contact</a></div>
+    <div class="intro">
+      <p>Welcome to my Page!</p>
+      <p>Please have a look at my work Below</p>
+  </div>
+</div>
+
+<section>
+  <div class="triangle-down"></div>
+<div class="grid-container">
+    <div class="myDiv" onclick="openModal('modal1')">
+        <div class="projectImage"><img src="images/scoops2.png" width="200" ></div>
+        <div class="text">
+        <h2>SCOOPS Networking app</h2>
+        <p>'Made by Us for Us' An app for better networking in UX/UI world.</p>
+  
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <div class="topnav">
+              <h3>HELLO HEADING</h3>
+              <h4>SCOOPS Networking app details...</h4></div>
+              <div class="triangle-down"></div>
+          
+              <div class="omg">
+              <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
+              <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
+              <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
+              <img src="images/scoops2.png" width="600" height="700" >
+              <img src="images/scoops2.png" width="600" height="700" >
+              <img src="images/scoops2.png" width="600" height="700" >
+              <h4>SCOOPS Networking app details...</h4>
+              <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
+              <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
+            </div></div></div></div></div>
+
+
+        <div class="myDiv">
+            <div class="projectImagensa"><img src="images/NSAlogo.png"  width="200" ></div>
+            <div class="text">
+            <h2>NSA Desktop+Mobile app</h2>
+            <p>Gov. site that needs a bit of help. After all, it's related to Cybersecurity!</p>
+            <button onclick="openModal('modal2')"><img src="images/play but r.png" width="30" ></button>
+            <div id="modal2" class="modal">
+              <div class="modal-content">
+                  <span class="close" onclick="closeModal('modal2')">&times;</span>
+                  <p>NSA Desktop+Mobile app details...</p>
+              </div></div>
+            </div></div>
+            <div class="myDiv">
+                <div class="projectImage"><img src="" width="200" ></div>
+                <div class="text">
+                <h2>Mobile Travel app</h2>
+                <p>We all like to travel, see new places with our closest. But replying, committing to tasks is a tadpole event. 'This' app solves that.</p>
+                <button onclick="openModal('modal3')"><img src="images/play but r.png" width="30" ></button>
+                <div id="modal3" class="modal">
+                  <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal3')">&times;</span>
+                      <p>Mobile Travel app details...</p>
+                  </div></div></div></div>
+                <div class="myDiv">
+                    <div class="projectImage"><img src="images/kcpec.png" width="200" ></div>
+                    <div class="text">
+                    <h2>KCPEC</h2>
+                    <p>Users need quick navigation to donate, before the 'feeling' runs out!</p>
+                    <button onclick="openModal('modal4')"><img src="images/play but r.png" width="30" ></button>
+                    <div id="modal4" class="modal">
+                      <div class="modal-content">
+                          <span class="close" onclick="closeModal('modal4')">&times;</span>
+                          <p>KCPEC app details...</p>
+                      </div></div></div></div>
+                      <div class="myDiv">
+                        <div class="projectImage"><img src="images/furnitarlogo.png" width="200" ></div>
+                        <div class="text">
+                        <h2>Mobile AR Furniture app</h2>
+                        <p>In this project, a group gathered to create an app "How to rearrange old or new furniture in existing spaces."</p>
+                        <button onclick="openModal('modal5')"><img src="images/play but r.png" width="30" ></button>
+                        <div id="modal5" class="modal">
+                          <div class="modal-content">
+                              <span class="close" onclick="closeModal('modal5')">&times;</span>
+                              <p>Mobile AR Furniture app details...</p>
+                          </div></div></div>
+                        </div>
+
+</div>
+</section>
+</body>
+
+
+
+</body>
+</html>
