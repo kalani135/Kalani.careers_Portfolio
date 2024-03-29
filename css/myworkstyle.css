@@ -10,7 +10,7 @@ body {
   .topnav {
  width: 100%;
   /*background-image: linear-gradient(to right, #ffffff 19%, #1e1e1e 64%);*/
-  background-color: #e5d6b0;
+  background-color: #f2eecd;
   padding-top: 50px;
   padding-bottom: 90px;
   }
@@ -35,7 +35,7 @@ body {
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #6b4d28;
     color: white;
   }
   
@@ -57,7 +57,7 @@ text-align: center;
     width: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 50px solid #e5d6b0;
+    border-top: 50px solid #f2eecd;
   }
 
   .grid-container {

@@ -1,10 +1,9 @@
 body { 
-  background: linear-gradient(to right, #ffffff 0%, #e5d6b0 100%);
-  /*background: linear-gradient(to right, #ffffff 0%, #669999 100%);*/
+  background: linear-gradient(to right, #ffffff 0%, #f2eecd 100%);
   display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+   height: 500px;
     margin: 0;
   }
   
@@ -17,7 +16,16 @@ body {
     margin: 0px;
     position: relative;
   }
-  
+
+   
+     .topnav-right a {
+       float: right;
+       color: #070707;
+       text-align: center;
+       padding: 15px;
+       padding-top: 5px;
+       font-size: 20px;
+     }
   
   .header-logo {
     position: absolute;
@@ -26,45 +34,46 @@ body {
   margin : 11px;
   }
   
+
   .myDiv {
-    background: linear-gradient(to right, #ffffff 0%, #669999 100%);
+    background: linear-gradient(to right, #ffffff 0%, #f2eecd 100%);
     display: flex;
     flex: 1;
     padding: 50px;
+   padding-left: 70px ;
     background-color: #f0f0f0;
-    align-items: center
+    align-items: top;
     cursor: pointer;
+    height: 600px;
   }
+
   
-  
+ 
   .projectImage {
-    float: right;
-   padding: 10px;
+    float: left;
+   padding: 15px;
   }
 
 
   .text h2 {
-    margin-right: 10px;
-    margin: 3px;
-    margin-left: 10px;
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .text p {
-    padding-top: 5px;
-    padding-left: 10px;
     margin-right: 10px;
     font-size: 16px;
     width: 550px;
-  }
+  
+}
 
     
   div {
     padding: 10px; 
-    padding-left: 10px;
+
   }
 
   button {
+    margin-top: 10px;
     border-radius: 6px;
     padding: 6px 12px;
     background-color: #414549;
@@ -72,35 +81,26 @@ body {
     border: none;
     cursor: pointer;
   }
+
+  .flex-container button {
+    margin: 0px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #e6d7ad;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
   
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
   }
   
-  
-  .menu {
-    width: 100%;
-    background-color: rgb(29, 31, 34);
-    justify-content: space-between; /* Spread the menu items to the full width */
-    align-items: center;
-    color: white;
-    padding: 10px 0;
-   
-  }
-  
-  
-  .menu a {
-    padding-left: 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    margin: 20px;
-  
-  }
-  
+
   
   .menu a:hover {
     text-decoration:underline;
   }
-  
+
+
