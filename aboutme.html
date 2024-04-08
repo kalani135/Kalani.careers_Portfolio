@@ -4,26 +4,50 @@
 <link rel="stylesheet" type="text/css" href="css/aboutmestyle.css">
 </head>
 <body>
-          <div class="topnav-right">
-            <a href="index.html">Work</a>
-            <a href="myskills.html">Skills</a></div>
-<div class="header">
-<h1>About Me</h1>
-<header class="header-logo"> 
-<img src="images/Logo.png" height="50" > 
-</header>
+
+<div class="header">    
+<div class="flex-container1">
+
+  <div class="flex-item-left"> <a class="active-logo" href="index.html"> <img src="images/Logo.png" height="50"> </a></div>
+
+  <div class="flex-item-middle">
+    <h1>About Me</h1></div>
+
+  <div class="flex-item-right"><div class="topnav-right">
+  <a href="index.html">Work</a>
+  <a href="myskills.html">Skills</a></div>
+</div></div>
+
 <style>
   .flex-container {
+    padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 .flex-container> div{
+  padding: 10px; 
   background: linear-gradient(to right, #ffffff 0%, #f2eecd 100%);
     box-shadow: 10px 10px 5px #e6d7ad;
     width: 250px;
     height: 90px;
 }
+.flex-container button {
+    margin: 0px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #e6d7ad;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .flex-container button:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
 
 </style>
 </div>
@@ -37,8 +61,8 @@
 <h3>Conceptual Dream Weaver</h3>
 <p>User bias, Problem creator who leads better Solutions and Weaving new Dreams</p>
 <p>UX consultant with content-rich portfolio. I'm a provider of value to your problematic web issues with promising detailed solutions.</p>
-<div><button><a href="images/Kalani Resume (UX Designer)-3.pdf"></a> Resume</button>
-    <button><a href="images/Cover Letter (Sr.UX Designer)-2.docx"></a>If you Want: Cover Letter</button></div>
+<div><button><a href="doc/Kalani Resume (UX Designer)-3.pdf">Resume PDF</button></a>
+  <button><a href="doc/Kalani Cover Letter (UX Designer).pdf">If you Want: Cover Letter</button></a></div>
 
     <div class="flex-container">
       <div style="order: 1"><div class="projectImage"><img src="images/dialpad.png" height="25"></div>
@@ -58,7 +82,7 @@
                <div style="order: 4"><div class="projectImage"><img src="images/Linkedin.png" height="25"></div>
                   <div class="text">
                   <h2>Walk in : </h2>
-                  <Button><a href="https://www.linkedin.com/in/uxuidesignerkalani/">Checkout my Network</a> </Button>
+                  <button><a href="https://www.linkedin.com/in/uxuidesignerkalani/">Check out my Network</a> </button>
                    </div>
 </section>
 </body>

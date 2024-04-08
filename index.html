@@ -7,7 +7,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-
+     
 
         /* The Modal (background) */
         .modal {
@@ -17,7 +17,8 @@
             /* Stay in place */
             z-index: 1;
             /* Sit on top */
-            padding-top: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             /* Location of the box */
             left: 0;
             top: 0;
@@ -31,10 +32,10 @@
             /* Fallback color */
             background-color: rgba(0, 0, 0, 0.4);
             /* Black w/ opacity */
-            border-radius: 8px; /* Add border radius */
+           
         }
         #modal1 .modal-content {
-          border-radius: 8px; /* Add border radius */
+        
           background: linear-gradient( #fffcca -4%,#ffdbfa 24%, #a7d7f7 75%, #befffc 100% );/* Ice cream colors */
         }
 
@@ -56,23 +57,12 @@
 
         /* Modal Content */
         .modal-content {
-          padding-top:0%;
-          padding-left: 0%;
-          padding-right: 0%;
-          padding-bottom: 230px;
+          text-align: center;
+          align-items: center;
+          padding-bottom: 200px;
             margin: auto;
-            width: 80%;
-            border-radius: 8px; /* Add border radius */
+            width: 85%;
         }
-
-
-       .modal-content .omg p {
-        padding: 10px;
-       font-family: Ariel;
-  font-size: 16px;
-  margin-left: 80px;
-  margin-right: 80px;
- }
 
 
         /* The Close Button */
@@ -90,6 +80,40 @@
             cursor:pointer;
         }
 
+        .flex-container1 {
+          margin: 10px;
+          padding-left: 60px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.flex-container1> div{
+  background-color: none;
+  margin: 20px;
+    width: 700px;
+    height: 250px;
+}
+.container {
+  padding-top: 80px;
+  margin: 0px;
+  width: 800px;
+  display: inline-block;
+  overflow: auto;
+inline-size: 350px;
+}
+button {
+  border-width: 4px;
+  border-color: beige;
+  font-size: 14px;
+  background-image: linear-gradient( #1e1e1e -4%,#ffffff 24%,#1e1e1e 100%);
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
         
     </style>
 <link rel="stylesheet" type="text/css" href="css/myworkstyle.css">
@@ -101,14 +125,14 @@
   }
 
   function closeModal(modalId) {
-      var modal = document.getElementById(modalcon);
+      var modal = document.getElementById(modalId);
       modal.style.display = "none";
   }
  </script>
 
 <body>
 <div class="topnav">
-<a class="active-logo" href="mywork.html"> <img src="images/Logo.png" height="40" > </a> 
+<a class="active-logo" href="index.html"> <img src="images/Logo.png" height="50"> </a> 
   <div class="topnav-right">
     <a href="aboutme.html">About</a>
     <a href="myskills.html">Skills</a></div>
@@ -121,40 +145,68 @@
 
 <section>
   <div class="triangle-down"></div>
-<div class="grid-container">
 
-    <div class="myDiv"onclick="openModal('modal1')">
-        <div class="projectImage"><img src="images/scoops2.png" width="200" ></div>
+
+  <div class="container">
+    <button onclick="openModal('modal1')">
+        <div class="projectImage"><img src="images/scoops2.png" width="200" >
         <div class="text">
         <h2>SCOOPS Networking app</h2>
-        <p>'Made by Us for Us' An app for better networking in UX/UI world.</p>
+        <p>Focus: Better networking app for UX/UI Designers</p>
+        <p>Made by Us for Us (Fulfill our needs)</p></button></div></div></div>
   
         <div id="modal1" class="modal">
           <div class="modal-content">
             <span class="close" onclick="closeModal('modal1')">&times;</span>
             <div class="topnav">
-              <h3>HELLO HEADING</h3>
-              <h4>SCOOPS Networking app details...</h4></div>
+              <h3>HELLO<h3> </h3> You Are in SCOOPS Project</h3>
+              <p> ______________________________________________________________________________</p>
+              <h4>Expectations</h4>
+                <p>accessible landing pages </p>
+                  <p>The purpose of this creation  </p>
+                    <p>Understanding/handling the users pain points </p>
+                      <p>Ul always in need of updates. (Making quick accessible designs) </p>
+                        <p>Constant A/B Testings </p>
+                      <h4>Take a further Dip</h4></div>
               <div class="triangle-down"></div>
           
-              <div class="omg">
-              <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
-              <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
-              <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
-              <img src="images/scoops2.png" width="600" height="700" >
-              <img src="images/scoops2.png" width="600" height="700" >
-              <img src="images/scoops2.png" width="600" height="700" >
+              
+              <div class="flex-container1">
+                <div style="order: 1">
+              <h4><img src="images/play but r.png" width="15" height="15" position="center" >Solved these / Objectives</h4>
+            <p>Understanding the UX/UI users needs + finding the niche through Competitor analysis </p>
+          <p>Understanding/handling continuous improvement</p>
+        <p>Ul always in need of updates (Making quick accessible designs)</p>
+      <p>Constant A/B Testings </p>
+    <p>Analyze Ul, evaluate accessibility, UX/Ul practices like atomic design</p>
+  <p>Following use of testing, turn your website into a reality with high fidelity prototyping in Figma</p></div>
+
+                <div style="order: 2">
+                  <h4><img src="images/play but r.png" width="15" height="15">with this / skills</h4>
+                <p>Wire frames</p>
+                <p>Ul analysis</p>
+                <p>accessibility evaluation</p>
+                <p>Atomic design</p>
+                <p>Hi-Fi prototyping</p></div></div>
+              
+                <div class="task">
+                <h4>2 Main Recoveries went through TASK</h4>
+              <img src="images/Group 15.png" width="380" height="600" >
+              <img src="images/Group 16.png" width="380" height="600" ></div>
+            
+
+
               <h4>SCOOPS Networking app details...</h4>
               <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
               <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
-            </div></div></div></div></div>
+            </div></div></div></div>
 
-
-        <div class="myDiv"onclick="openModal('modal2')">
-            <div class="projectImagensa"><img src="images/NSAlogo.png"  width="200" ></div>
+            <div class="container">
+        <button onclick="openModal('modal2')">
+            <div class="projectImagensa"><img src="images/NSAlogo.png"  width="200" >
             <div class="text">
             <h2>NSA Desktop+Mobile app</h2>
-            <p>Gov. site that needs a bit of help. After all, it's related to Cybersecurity!</p>
+            <p>Gov. site that needs a bit of help. After all, it's related to Cybersecurity!</p></button></div></div></div>
            
             <div id="modal2" class="modal">
               <div class="modal-content">
@@ -164,7 +216,7 @@
                   <h4>SCOOPS Networking app details...</h4></div>
                   <div class="triangle-down"></div>
               
-                  <div class="omg">
+                  
                   <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
                   <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                   <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
@@ -175,13 +227,15 @@
                   <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                   <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
                 </div>
-              </div></div></div></div>
+              </div></div></div>
 
-              <div class="myDiv"onclick="openModal('modal3')">
-                <div class="projectImage"><img src="" width="200" ></div>
+              <div class="container">
+              <button onclick="openModal('modal3')">
+                <div class="projectImage"><img src="" width="200" >
                 <div class="text">
                 <h2>Mobile Travel app</h2>
-                <p>We all like to travel, see new places with our closest. But replying, committing to tasks is a tadpole event. 'This' app solves that.</p>
+                <p>We all like to travel, see new places with our closest. But replying, committing to tasks is a tadpole event. 'This' app solves that.</p></button></div></div></div>
+
                 <div id="modal3" class="modal">
                   <div class="modal-content">
                       <span class="close" onclick="closeModal('modal3')">&times;</span>
@@ -190,7 +244,7 @@
                         <h4>SCOOPS Networking app details...</h4></div>
                         <div class="triangle-down"></div>
                     
-                        <div class="omg">
+                        
                         <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
                         <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                         <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
@@ -201,14 +255,15 @@
                         <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                         <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
                       </div>
-                  </div></div></div></div>
+                  </div></div></div>
 
-
-                <div class="myDiv"onclick="openModal('modal4')">
-                    <div class="projectImage"><img src="images/kcpec.png" width="200" ></div>
+                  <div class="container">
+                <button onclick="openModal('modal4')">
+                    <div class="projectImage"><img src="images/kcpec.png" width="200" >
                     <div class="text">
                     <h2>KCPEC</h2>
-                    <p>Users need quick navigation to donate, before the 'feeling' runs out!</p>
+                    <p>Users need quick navigation to donate, before the 'feeling' runs out!</p></button></div></div></div>
+
                     <div id="modal4" class="modal">
                       <div class="modal-content">
                           <span class="close" onclick="closeModal('modal4')">&times;</span>
@@ -217,7 +272,7 @@
                             <h4>SCOOPS Networking app details...</h4></div>
                             <div class="triangle-down"></div>
                         
-                            <div class="omg">
+                           
                             <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
                             <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                             <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
@@ -228,14 +283,15 @@
                             <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                             <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
                           </div>
-                      </div></div></div></div>
+                      </div></div></div>
 
 
-                      <div class="myDiv"onclick="openModal('modal5')">
-                        <div class="projectImage"><img src="images/furnitarlogo.png" width="200" ></div>
+                      <div class="container">
+                      <button onclick="openModal('modal5')">
+                        <div class="projectImage"><img src="images/furnitarlogo.png" width="200" >
                         <div class="text">
                         <h2>Mobile AR Furniture app</h2>
-                        <p>In this project, a group gathered to create an app "How to rearrange old or new furniture in existing spaces."</p>
+                        <p>In this project, a group gathered to create an app "How to rearrange old or new furniture in existing spaces."</p></button></div></div></div>
                         <div id="modal5" class="modal">
                           <div class="modal-content">
                               <span class="close" onclick="closeModal('modal5')">&times;</span>
@@ -244,7 +300,7 @@
                                 <h4>SCOOPS Networking app details...</h4></div>
                                 <div class="triangle-down"></div>
                             
-                                <div class="omg">
+
                                 <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
                                 <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                                 <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>
@@ -255,9 +311,8 @@
                                 <p><img src="images/play but r.png" width="15" height="15"> SCOOPS Networking app details... jfdhflfhdhflshfj fjdlf hhldsfhdslf s fldsh fldjfldsfjaljfliakfjajfsakjfafjlakflas fl asfhfa lshlf la f halfksahflh </p>
                                 <p><img src="images/play but r.png" width="15" height="15" position="center" > SCOOPS Networking app details...</p>R5T125
                               </div>
-                          </div></div></div>
-                        </div>
-
+                          </div></div></div></div>
+                        
 </div>
 </section>
 </body>
